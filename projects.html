@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Gireesh Vilasagaram Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GV</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <header id="projects-header">
+        <div class="container">
+            <h1 class="animate-on-scroll fade-in">My Projects</h1>
+            <p class="animate-on-scroll fade-in">A collection of my professional work and case studies demonstrating my expertise in web development and data analytics</p>
+        </div>
+    </header>
+
+    <!-- Project Categories -->
+    <section id="project-categories">
+        <div class="container">
+            <div class="category-filter animate-on-scroll fade-in">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="implementation">Implementation</button>
+                <button class="filter-btn" data-filter="strategy">Strategy</button>
+                <button class="filter-btn" data-filter="optimization">Optimization</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Case Studies -->
+    <section id="project-case-studies">
+        <div class="container">
+            <!-- Project 1 -->
+            <div class="case-study implementation animate-on-scroll fade-in" id="encryption">
+                <div class="case-study-header">
+                    <h2>Encryption Ransom</h2>
+                    <div class="project-meta">
+                        <span class="project-type">Cybersecurity</span>
+                        <span class="project-year">2019</span>
+                        <span class="project-client">Digital Forensics Coursework</span>
+                    </div>
+                </div>
+                <div class="case-study-content">
+                    <div class="case-study-image">
+                        <img src="assets/project1.jpg" alt="Encryption Ransom Project">
+                    </div>
+                    <div class="case-study-details">
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Developed a Java-based ransomware/malware project with Google Drive API integration for Digital Forensics coursework, demonstrating expertise in programming, cybersecurity, and cloud integration.</p>
+                        </div>
+                        <div class="challenge">
+                            <h3>Challenge</h3>
+                            <p>The challenge was to create a secure, educational demonstration of ransomware mechanics for cybersecurity education while ensuring the project remained ethical and could not be repurposed for malicious intent. Additionally, we needed to integrate with cloud storage for secure data handling.</p>
+                        </div>
+                        <div class="approach">
+                            <h3>Approach</h3>
+                            <ul>
+                                <li>Developed a secure encryption system using Java's cryptography libraries</li>
+                                <li>Integrated Google Drive API for secure cloud storage of encryption keys</li>
+                                <li>Created a user-friendly GUI for educational demonstration purposes</li>
+                                <li>Implemented secure data backup protocols as part of the demonstration</li>
+                                <li>Built safeguards to ensure the project could only function in a controlled environment</li>
+                                <li>Documented the entire process for educational purposes</li>
+                            </ul>
+                        </div>
+                        <div class="results">
+                            <h3>Results</h3>
+                            <ul>
+                                <li>Created a fully functional educational demonstration tool</li>
+                                <li>Successfully integrated with Google Drive for secure key management</li>
+                                <li>Developed a user-friendly interface that explained the encryption process</li>
+                                <li>Received excellent feedback from instructors for the technical implementation</li>
+                                <li>Gained practical experience in ethical hacking and data encryption</li>
+                                <li>Demonstrated strong problem-solving skills in a complex programming environment</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <h3>Technologies Used</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">Google Drive API</span>
+                                <span class="tag">Cryptography</span>
+                                <span class="tag">GUI Development</span>
+                                <span class="tag">Cloud Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="case-study strategy animate-on-scroll fade-in" id="ecommerce">
+                <div class="case-study-header">
+                    <h2>Multi-vendor E-Commerce Website for Farmers</h2>
+                    <div class="project-meta">
+                        <span class="project-type">Web Development</span>
+                        <span class="project-year">2021</span>
+                        <span class="project-client">Agricultural Sector</span>
+                    </div>
+                </div>
+                <div class="case-study-content">
+                    <div class="case-study-image">
+                        <img src="assets/project2.jpg" alt="E-Commerce Website for Farmers">
+                    </div>
+                    <div class="case-study-details">
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Developed a web-based application aimed at streamlining farming processes through an advanced e-commerce platform. This platform empowers farmers with innovative features and modern web technologies, enhancing various agricultural activities.</p>
+                        </div>
+                        <div class="challenge">
+                            <h3>Challenge</h3>
+                            <p>Traditional agricultural supply chains involve multiple intermediaries, resulting in reduced profits for farmers and higher prices for consumers. Additionally, many farmers lack direct access to markets and technological solutions that could improve their business operations and product distribution.</p>
+                        </div>
+                        <div class="approach">
+                            <h3>Approach</h3>
+                            <ul>
+                                <li>Conducted extensive research on agricultural supply chains and farmer needs</li>
+                                <li>Designed a user-friendly interface accessible to users with varying technical skills</li>
+                                <li>Developed a secure multi-vendor platform with individual farmer accounts</li>
+                                <li>Implemented location-based features to connect local farmers with consumers</li>
+                                <li>Created a responsive design to ensure accessibility on various devices</li>
+                                <li>Integrated secure payment gateways and order tracking systems</li>
+                            </ul>
+                        </div>
+                        <div class="results">
+                            <h3>Results</h3>
+                            <ul>
+                                <li>Successfully created a functional e-commerce platform tailored for agricultural products</li>
+                                <li>Reduced supply chain complexity, increasing farmer profits by eliminating intermediaries</li>
+                                <li>Provided farmers with digital tools to manage inventory and track sales</li>
+                                <li>Enhanced visibility of local farm products to consumers in their region</li>
+                                <li>Implemented secure transaction processing with transparent fee structure</li>
+                                <li>Created a scalable solution adaptable to different agricultural markets</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <h3>Technologies Used</h3>
+                            <div class="tech-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Responsive Design</span>
+                                <span class="tag">Payment Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="case-study optimization animate-on-scroll fade-in" id="ml-diabetes">
+                <div class="case-study-header">
+                    <h2>Diabetes Prediction Using Machine Learning</h2>
+                    <div class="project-meta">
+                        <span class="project-type">Data Science</span>
+                        <span class="project-year">2021</span>
+                        <span class="project-client">Healthcare Research</span>
+                    </div>
+                </div>
+                <div class="case-study-content">
+                    <div class="case-study-image">
+                        <img src="assets/project3.jpg" alt="Diabetes Prediction Using Machine Learning">
+                    </div>
+                    <div class="case-study-details">
+                        <div class="overview">
+                            <h3>Overview</h3>
+                            <p>Developed a project focused on creating a robust and highly accurate diabetes prediction model using machine learning techniques. The model analyzes various health parameters to predict diabetes risk, helping in early detection and prevention.</p>
+                        </div>
+                        <div class="challenge">
+                            <h3>Challenge</h3>
+                            <p>Early diabetes detection remains a significant healthcare challenge, with many cases going undiagnosed until complications arise. Traditional screening methods can be time-consuming and expensive, limiting widespread implementation. The challenge was to develop an accurate, accessible prediction model that could assist healthcare providers in identifying at-risk patients.</p>
+                        </div>
+                        <div class="approach">
+                            <h3>Approach</h3>
+                            <ul>
+                                <li>Collected and preprocessed a comprehensive dataset of health parameters</li>
+                                <li>Performed exploratory data analysis to identify key factors influencing diabetes risk</li>
+                                <li>Implemented feature selection and engineering to optimize model inputs</li>
+                                <li>Developed and trained multiple machine learning algorithms, including Random Forest, SVM, and Neural Networks</li>
+                                <li>Conducted cross-validation to ensure model reliability and generalizability</li>
+                                <li>Optimized hyperparameters to maximize prediction accuracy</li>
+                            </ul>
+                        </div>
+                        <div class="results">
+                            <h3>Results</h3>
+                            <ul>
+                                <li>Achieved high prediction accuracy with the Random Forest algorithm outperforming other methods</li>
+                                <li>Identified key health indicators with the strongest correlation to diabetes risk</li>
+                                <li>Created a model with balanced precision and recall, minimizing both false positives and negatives</li>
+                                <li>Developed visualizations to make model outputs interpretable for healthcare providers</li>
+                                <li>Demonstrated the potential for ML-based screening to complement traditional diagnostic approaches</li>
+                                <li>Provided a foundation for further research in predictive healthcare analytics</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <h3>Technologies Used</h3>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Matplotlib</span>
+                                <span class="tag">Random Forest</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Projects -->
+    <section id="more-projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Additional Projects</h2>
+            <div class="project-grid">
+                <div class="project-item strategy animate-on-scroll fade-in">
+                    <h3>Digital Transformation Roadmap</h3>
+                    <p>Developed a 3-year digital transformation strategy for a mid-size insurance company.</p>
+                    <span class="project-year">2021</span>
+                </div>
+                <div class="project-item implementation animate-on-scroll fade-in" style="animation-delay: 0.1s;">
+                    <h3>ERP System Implementation</h3>
+                    <p>Led the implementation of an enterprise resource planning system for a manufacturing client.</p>
+                    <span class="project-year">2020</span>
+                </div>
+                <div class="project-item optimization animate-on-scroll fade-in" style="animation-delay: 0.2s;">
+                    <h3>Network Infrastructure Upgrade</h3>
+                    <p>Managed a comprehensive network infrastructure upgrade improving speed and security.</p>
+                    <span class="project-year">2019</span>
+                </div>
+                <div class="project-item strategy animate-on-scroll fade-in" style="animation-delay: 0.3s;">
+                    <h3>IT Governance Framework</h3>
+                    <p>Established IT governance framework aligning technology initiatives with business objectives.</p>
+                    <span class="project-year">2019</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact-cta">
+        <div class="container">
+            <h2 class="animate-on-scroll fade-in">Interested in working together?</h2>
+            <p class="animate-on-scroll fade-in">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+            <a href="contact.html" class="btn btn-primary animate-on-scroll fade-in">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Gireesh Vilasagaram</a>
+                    <p>Web Developer & Business Analytics</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gireesh-vilasagaram-47175818b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span class="current-year">2025</span> Gireesh Vilasagaram. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Gireesh Vilasagaram Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GV</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <header id="contact-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>I'd love to hear from you! Whether you have a question, proposal, or just want to connect.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>Feel free to reach out using any of the methods below. I typically respond within 24 hours.</p>
+                    
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:gireeshvila@gmail.com">gireeshvila@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+19734950281">(973) 495-0281</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Location</h3>
+                            <p>Houston, TX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-connections">
+                        <h3>Connect with me</h3>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="download-resume">
+                        <a href="assets/Gireesh_Vilasagaram_Resume.pdf" download class="btn btn-secondary"><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form id="contact-form" action="mailto:gireeshvila@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <!-- <section id="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What services do you offer?</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I offer web development services with expertise in both front-end and back-end technologies, including HTML, CSS, JavaScript, React.js, Node.js, and more. I also provide data analysis and business intelligence solutions, leveraging my background in Business Analytics to deliver data-driven insights and solutions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are you available for freelance projects?</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I am available for freelance and consulting projects. I can work on both short-term and long-term engagements, depending on the project scope and requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your typical project process?</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>My web development process typically involves understanding client requirements, creating wireframes and mockups, developing the frontend and backend components, implementing data integration when needed, thorough testing, and deployment. For data analytics projects, I focus on understanding business questions, data collection and cleaning, exploratory analysis, model building when appropriate, and creating interactive visualizations and dashboards.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do we get started working together?</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Getting started is easy! Simply reach out through the contact form or email, and we'll schedule an initial consultation to discuss your project needs, goals, and how I can help. From there, I'll provide a proposal tailored to your specific requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div> --> -->
+    <!-- </section> --> -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Gireesh Vilasagaram</a>
+                    <p>Web Developer & Business Analytics</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gireesh-vilasagaram-47175818b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Gireesh Vilasagaram. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

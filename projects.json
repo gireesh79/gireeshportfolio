@@ -1,0 +1,17 @@
+[
+    {
+        "title": "UI/UX Design for E-Commerce",
+        "description": "Redesigned an online store to improve conversions and user engagement.",
+        "image": "assets/project1.jpg"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Developed a high-performance, SEO-optimized personal portfolio using React.js.",
+        "image": "assets/project2.jpg"
+    },
+    {
+        "title": "Mobile App UI Concept",
+        "description": "Designed a seamless mobile app experience for booking travel services.",
+        "image": "assets/project3.jpg"
+    }
+]
